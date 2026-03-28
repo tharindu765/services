@@ -7,6 +7,3 @@
 [submodule "quickhire-file-service"]
 	path = quickhire-file-service
 	url = https://github.com/tharindu765/quickhire-file-service.git
-[submodule "quickhire-frontend"]
-	path = quickhire-frontend
-	url = https://github.com/tharindu765/quickhire-frontend.git
