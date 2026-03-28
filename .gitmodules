@@ -1,0 +1,12 @@
+[submodule "quickhire-user-service"]
+	path = quickhire-user-service
+	url = https://github.com/tharindu765/quickhire-user-service.git
+[submodule "quickhire-job-service"]
+	path = quickhire-job-service
+	url = https://github.com/tharindu765/quickhire-job-service.git
+[submodule "quickhire-file-service"]
+	path = quickhire-file-service
+	url = https://github.com/tharindu765/quickhire-file-service.git
+[submodule "quickhire-frontend"]
+	path = quickhire-frontend
+	url = https://github.com/tharindu765/quickhire-frontend.git
