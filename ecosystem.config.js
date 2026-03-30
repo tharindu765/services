@@ -1,5 +1,11 @@
 module.exports = {
-  apps : [{
+  apps : [
+  {
+      name   : "cloud-sql-auth-proxy",
+      script : "./cloud-sql-proxy quickhire-cloud:asia-southeast1:postgres-vm --private-ip",
+      log_file: "./logs/cloud-sql-auth-proxy.log"
+    },
+  {
     name   : "user-service",
     script : "java -jar ./quickhire-user-service/target/user-service-0.0.1-SNAPSHOT.jar",
     log_file: "./logs/user-service.log",
